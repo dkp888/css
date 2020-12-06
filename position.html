@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        *
+        {
+            padding: 0;
+            margin: 10px;
+            box-sizing: border-box;
+        }
+        div.static
+        {
+            position: static;
+            border: 2px solid green;
+        }
+        div.fixed
+        {
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            border: 2px solid blue;
+            width: 250px;
+        }
+    </style>
+</head>
+<body>
+    <div class="static">
+        This is all about static position
+    </div>
+    <div class="fixed">
+        This is all about fixed position
+    </div>
+</body>
+</html>
