@@ -1,0 +1,16 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+p
+{
+    text-shadow: 2px;
+}
+.project{
+    background-color: green;
+    color: white;
+    text-align: left;
+    text-shadow: 3px;
+
+}
