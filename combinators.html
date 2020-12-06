@@ -1,0 +1,35 @@
+<!-- There are four different combinators in CSS
+1>descendant selector (space)
+2>child selector (>)
+3>adjacent sibling selector (+)
+4>general sibling selector (~) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinators</title>
+    <style>
+        *
+        {
+            margin: 15px;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+        /* descendant Selector */
+        div p
+        {
+            color: aqua;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>this is the descendant Selector example1</p>
+        <p>this is the descendant Selector example2</p>
+    </div>
+    <div>
+    </div>
+</body>
+</html>
